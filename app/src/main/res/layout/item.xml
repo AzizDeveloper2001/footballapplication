@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/flag"
+
+            android:src="@color/white"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team"
+            android:textColor="@color/white"
+            android:id="@+id/team"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="D"
+        android:textColor="@color/white"
+        android:id="@+id/d"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="L"
+        android:textColor="@color/white"
+        android:id="@+id/l"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ga"
+        android:textColor="@color/white"
+        android:id="@+id/ga"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Gd"
+        android:textColor="@color/white"
+        android:id="@+id/gd"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pts"
+        android:textColor="@color/white"
+        android:id="@+id/pts"
+        android:textSize="15sp"/>
+
+</LinearLayout>
